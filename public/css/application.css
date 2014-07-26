@@ -1,0 +1,78 @@
+body {
+  background-image: url(/images/bored.jpg);
+  background-size:   cover;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 60;
+}
+
+  form {
+    display: inline-block;
+    text-align: center;
+    }
+
+input {
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  font-size: 50;
+  text-align: center;
+  color: black;
+  background-color: transparent;
+  width: 500;
+  margin-top: 550;
+  margin-left: 50;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 60;
+  text-align: center;
+  margin-top: 150px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  color: white;
+  font-size: 30;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#register-button {
+  float: none;
+}
+
+#starting_link {
+  margin-top: 550;
+  margin-left: 50;
+
+}
+
+button {
+  float: right;
+  width: 125;
+  height: 42;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 10;
+}
+
+#register_player {
+  margin: auto 0;
+}
+
+#play_again {
+  text-align: center;
+}
+
+ .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+

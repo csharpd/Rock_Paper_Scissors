@@ -16,6 +16,10 @@ class RockPaperScissors < Sinatra::Base
   	erb :play
   end
 
+   get '/register' do
+    erb :play
+  end
+
   post "/play" do
   	player = Player.new(params[:name])
   	player.picks = params[:pick]
