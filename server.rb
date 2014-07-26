@@ -1,3 +1,8 @@
+configure :production do
+  require 'newrelic_rpm'
+end
+
+
 require 'sinatra/base'
 require './lib/player'
 require './lib/game'
@@ -11,9 +16,9 @@ class RockPaperScissors < Sinatra::Base
   	erb :new_player
   end
 
-  post '/register' do 
+  post '/register' do
   	@player = params[:name]
-  	erb :play	
+  	erb :play
   end
 
   post "/play" do
