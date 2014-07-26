@@ -1,8 +1,3 @@
-configure :production do
-  require 'newrelic_rpm'
-end
-
-
 require 'sinatra/base'
 require './lib/player'
 require './lib/game'
