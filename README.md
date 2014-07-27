@@ -31,3 +31,19 @@ After you have deployed it to heroku, add NewRelic add-on to the production envi
 Bonus Level
 
 Yes, you guessed right. Make your application beautiful! It’s always nice to have an app that not only works nicely, but also looks good!
+
+To Do
+=========
+
+CSS : Make the form buttons relative
+
+Activate New Relic
+
+My Apps
+=========
+
+Production : http://sheltered-thicket-6328.herokuapp.com/
+
+Staging :http://warm-mountain-4227.herokuapp.com/
+
+
