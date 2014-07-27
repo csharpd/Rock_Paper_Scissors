@@ -1,18 +1,24 @@
 body {
   background-image: url(/images/bored.jpg);
   background-size:   cover;
+  background-repeat: no-repeat;
 }
+
+div {
+  width:65%;
+  margin: 0 200px 0;}
 
 a {
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 60;
+  text-align: bottom;
+  position: absolute; bottom: 30pt; left: 30pt;
 }
 
-  form {
-    display: inline-block;
-    text-align: center;
-    }
+.pure-form {
+  margin: 0 370px 0;}
+
 
 input {
   font-family: 'Raleway', sans-serif;
@@ -22,8 +28,13 @@ input {
   color: black;
   background-color: transparent;
   width: 500;
-  margin-top: 550;
+  margin-top: 500;
   margin-left: 50;
+}
+
+.play_again {
+  font-size: 20px;
+  margin: 100px 350px 0;
 }
 
 h1 {
@@ -31,13 +42,13 @@ h1 {
   color: white;
   font-size: 60;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 175px;
 }
 
 h2 {
   font-family: 'Raleway', sans-serif;
   font-style: italic;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 30;
   text-align: center;
   margin-top: 50px;
@@ -47,10 +58,8 @@ h2 {
   float: none;
 }
 
-#starting_link {
-  margin-top: 550;
-  margin-left: 50;
-
+.again-button {
+  margin: 50px 150px 0;;
 }
 
 button {
@@ -60,14 +69,6 @@ button {
   vertical-align: middle;
   display: inline-block;
   margin: 10;
-}
-
-#register_player {
-  margin: auto 0;
-}
-
-#play_again {
-  text-align: center;
 }
 
  .button-secondary {
