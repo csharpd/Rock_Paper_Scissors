@@ -1,6 +1,6 @@
 
   <% if @game.winner == "Draw" %>
-       <h1> It was a draw </h1>
+       <h1>RESULTS : It was a draw </h1>
 
        <div><h2>“For my part, I travel not to go anywhere, but to go. I travel for travel’s sake. The great affair is to move.”</h2></div>
 
@@ -9,7 +9,7 @@
           </form>
 
    <% elsif @game.winner.name == "computer" %>
-       <h1> You lost, the compute won with <%= @game.winner.pick %>.</h1>
+       <h1> RESULTS : You lost, the compute won with <%= @game.winner.pick %>.</h1>
 
        <h2> Better luck next time </h2>
 
@@ -20,7 +20,7 @@
           </form>
 
   <% else %>
-      <h1> You won, with <%= @game.winner.pick %></h1>
+      <h1> RESULTS : You won, with <%= @game.winner.pick %></h1>
 
       <div><h2>“I personally would rather do the existentially essential things in life on foot. If you live in england and your girlfriend is in sicily, and it is clear you want to marry her, then you should walk to sicily to propose For these things travel by car or aeroplane is not the right thing.”<h2></div>
 
