@@ -7,7 +7,6 @@ class RockPaperScissors < Sinatra::Base
     require 'newrelic_rpm'
   end
 
-
   get '/' do
     erb :index
   end
