@@ -1,49 +1,39 @@
-Rock_Paper_Scissors
-===================
+# Rock Paper Scissors
 
-Week 5 Challenge
+A web based rock paper scissors game built with Sinatra. You can play vs the computer in single player.
+![](public/images/rpsscreenshot.png)
 
-=========
+## Deployed
+Check it out on [Staging](http://warm-mountain-4227.herokuapp.com/) and [Production](http://sheltered-thicket-6328.herokuapp.com/)
 
-Creating web applications seems a little bit like magic when you first come into contact with something like Sinatra. A good web developer is able to create web applications out of thin air and offer shared experiences for people around the world.
+## Objectives
+Learning more about HTTP requests, Sinatra, CSS, HTML5 and deploying staging and production versions onto Heroku.
 
-Your challenge this weekend is to create a rock, paper, scissors game that you can play in your browser.
+## Tech Stack
+* Ruby
+* Sinatra
+* HTML5
+* CSS
 
-Level 1
--------
 
-Grab the code (https://github.com/makersacademy/rockpaperscissors) and create a sinatra based web application that you can play on your browser (you might, or might not, need to change the code ever so slightly*).
+## Testing Suite
+* BDD using Cucumber and Capybara
+* Unit testing using RSpec
 
-Level 2
--------
+## How to set it up
+```sh
+git clone https://github.com/csharpd/Rock_Paper_Scissors.git
+cd rockpaperscissors
+bundle
+```
 
-Deploy your application to Heroku. Have two separate deployment targets: staging and production, so you’ll have two apps on Heroku that you’ll be deploying to and three git remotes (origin, staging, production. More here: https://devcenter.heroku.com/articles/multiple-environments). Make sure your app works both in staging and production.
+## How to run it
+```sh
+cd rockpaperscissors
+rackup
+```
+open your browser and go to [localhost:9292](http://localhost:9292)
 
-The goal is to have two separate deployment targets running in the same environment and on the same platform. This way you can deploy to staging first and, if everything goes well, deploy to production later. This is a common devops technique (tip: google is your friend if you did not understand this)
 
-Play a round or two on both, staging and production.
-
-Level 3
--------
-
-After you have deployed it to heroku, add NewRelic add-on to the production environment on Heroku and find out the average page loading time using NewRelic's interface. Explore NewRelic to see what other analytical tools are available. Write a little about what can be done with NewRelic in your own words and understanding.
-
-Bonus Level
-
-Yes, you guessed right. Make your application beautiful! It’s always nice to have an app that not only works nicely, but also looks good!
-
-To Do
-=========
-
-CSS : Make the form buttons relative
-
-Activate New Relic
-
-My Apps
-=========
-
-Production : http://sheltered-thicket-6328.herokuapp.com/
-
-Staging :http://warm-mountain-4227.herokuapp.com/
 
 
