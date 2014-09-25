@@ -4,8 +4,7 @@ A web based rock paper scissors game built with Sinatra. You can play vs the com
 ![](public/images/rpsscreenshot.png)
 
 ## Deployed
-Check it out on [Staging](http://warm-mountain-4227.herokuapp.com/) and [Production](http://sheltered-thicket-6328.herokuapp.com/)
-
+Check it out on [Staging](http://warm-mountain-4227.herokuapp.com/) 
 ## Objectives
 Learning more about HTTP requests, Sinatra, CSS, HTML5 and deploying staging and production versions onto Heroku.
 
